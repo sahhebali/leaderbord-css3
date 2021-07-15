@@ -1,0 +1,83 @@
+
+body{
+    background-color: #f3f1ff;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container{
+background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+   
+}
+hr{
+    margin-bottom: 27px;
+    border: 1px solid #D1D1D1;
+}
+/*-------------------
+ top-players style
+---------------------- */
+.top-players{
+    margin-bottom:30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:30px;
+}
+.section-title{
+    color: #562EFF;
+    margin-top: 3px;
+    font-size: 24px;
+}
+.player{
+    display: flex;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 15px;
+    font-size: 18px;
+}
+/*----------------------------------
+top-blogs-style
+------------------------------------ */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+
+.blog .thambnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+   
+    font-size: 20px;
+}
+.blog-auothar{
+    color: #9F9F9F;
+    
+}
+/* Cours-details */
+
+.cours .cours-banner img{
+    width: 224px;
+    height: 104px;
+}
